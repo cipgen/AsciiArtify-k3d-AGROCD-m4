@@ -1,6 +1,5 @@
-**Kubernetes** Deployment Tools
-
 ### **Introduction: Description of Kubernetes Tools - minikube, kind, and k3d.**
+
 
 - **Minikube:** Ideal for development, minikube creates a mini Kubernetes environment on a local PC, allowing testing on a single node.
 
@@ -58,4 +57,30 @@
 - Limited in Scale: Not designed for large-scale deployments, which may limit its applicability in bigger projects.
 - Reduced Features: Offers fewer features and options compared to standard Kubernetes.
 - Stability Concerns: May not be stable enough for use in large production environments.  
-*In summary, while each of these tools has its specific use cases and benefits, k3d stands out as an intriguing option, particularly for those who value minimal resource consumption, ease of deployment, and simplicity in configuration.*
+
+#### **Conclusions**
+
+- **Minikube** stands out as an excellent option for those in need of a tool with extensive documentation and strong community support.
+
+- **Kind** emerges as a great choice for those seeking quick deployment capabilities using Docker.
+
+- **k3d**, on the other hand, offers simplicity and speed in cluster creation, with the added benefit of being able to store configurations in a file.
+
+
+
+#### **Docker Licensing**
+
+##### Docker Licensing
+- **Changes in Licensing Model:** Recent changes in Docker's licensing model have caused concerns among commercial users. These changes include limitations on the use of the free version for large companies and corporations, which can affect organizations that use Docker on a large scale.
+- **Understanding the Implications:** It's important to understand how these changes will impact your environment, especially if you use Docker for commercial purposes.
+
+##### Podman Alternative
+- **As a Docker Replacement:** Podman can be used as a direct replacement for Docker, avoiding licensing issues.
+- **Compatibility and Interface:** Podman offers compatibility and a similar command-line interface, making it an attractive option for those accustomed to Docker.
+- **No Daemon Server:** One of the key features of Podman is the absence of a daemon server, as found in Docker, which can provide additional security and simplicity in management.
+
+*When choosing between Minikube, kind, and k3d, it's important to consider these aspects of Docker licensing and to consider Podman as a potential alternative, especially in the context of commercial use or large organizations. Including these considerations will help make a more informed choice of tools for working with Kubernetes in a local environment.*
+
+ #### **Demonstration of how it works**
+
+![Alt text](img/k3d.gif)
