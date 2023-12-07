@@ -26,4 +26,6 @@
    `kubectl logs python-hw-app-684f7f6846-7bbhf`
 
 9. Setting up port forwarding for accessing the service:
+```console
    `kubectl port-forward service/python-hw-app 8080:8080`
+```
