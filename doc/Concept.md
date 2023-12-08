@@ -83,4 +83,4 @@
 
  #### **Demonstration of how it works**
 
-![Alt text](https://github.com/cipgen/AsciiArtify/blob/main/img/k3d.gif)
+![Concept](https://github.com/cipgen/AsciiArtify/blob/main/img/k3d.gif)

@@ -44,3 +44,4 @@ Change the account password in Argo CD via CLI.
 ```console
 argocd account update-password
 ```
+![PoC](https://github.com/cipgen/AsciiArtify/blob/main/img/poc.gif)
