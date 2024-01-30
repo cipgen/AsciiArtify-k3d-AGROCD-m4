@@ -1,5 +1,6 @@
-<h3 align=center>AsciiArtify - k3d deployment</h3>
+### AsciiArtify - k3d deployment + AGROCD
 
+We are deploying a k3d cluster, within it ArgoCD, then the product repository https://github.com/den-vasyliev/go-demo-app and setting up automatic synchronization. Video implementation of the project.  
 
 1. Installing k3d via Homebrew for managing Kubernetes clusters:
 ```console
